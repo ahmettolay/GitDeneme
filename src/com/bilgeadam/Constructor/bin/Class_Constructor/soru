@@ -1,0 +1,17 @@
+//Calisan adında bir sınıf olacak --> ad, soyad, telefon, eposta özellikleri olacak 
+//ve 4 parametreyi de tanımlamak zorunlu olacak.
+//
+//Akademisyen abstract sınıfı Calisan sınıfını inherit edecek.Calisan üst sınıf, Akademisyen alt sınıf
+//ve özellik olarak --> bölüm, ünvan, kapıNo alacak
+//-Metot olarak labDersineGir, yemekhaneyiKullan, deneyYap gibi metotlar alacak
+//
+//IAkademisyenFonksiyonları adında bir interface olacak
+//ve içerisinde herkes için zorunlu olan derseGir, quizYap, sınavYap metotları olacak
+//
+//ÖğretimGörevlisi, Asistan, LabAsistanı alt sınıflar olacak. 
+//Bunlar abstract class ve interfaceleri inherit ve implement edecek.
+
+//Gövdesiz metotların gövdeleri doldurulacak. Metotların dönüş tipi olmasına gerek yok.
+//Yalnızca konsola çıktı verecek.
+	
+//Main' de ÖğretimGörevlisi,Asistan,LabAsistanı claslarından nesne üretilip, çağıralacak.
